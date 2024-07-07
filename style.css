@@ -1,0 +1,14 @@
+.gameField {
+    border: 1px solid black;
+    border-radius: 4px;
+    display: grid;
+    width: 216px;
+    height: 216px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.cell {
+    background-color: bisque;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
